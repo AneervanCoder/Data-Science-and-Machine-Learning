@@ -1,0 +1,18 @@
+import numpy as np 
+a=np.array([[1,2],[3,4]])
+print(a)
+print("#############")
+b=np.array([[5,6],[7,8]])
+print(b)
+print("################")
+c=a+b
+print(c)
+print("#########################")
+d=a.dot(b)
+print(d)
+print("#####################")
+k=np.zeros((3,4))
+print(k)
+print("#####################")
+k=np.ones((3,4))
+print(k)
